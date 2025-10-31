@@ -15,12 +15,12 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
    <div className='mx-auto mt-[1vh] bg-gray-900/30 w-2/3 h-1/3 flex flex-col items-center justify-between'>
-      <Image src="/LogoNeu.png"  width={500} height={300} alt="LogoNeu" className="object-contain w-[33vw] h-[24vh] md:mt-[0vh] md:w-[55vw] md:h-[36vh] lg:hidden "/>
+      <Image src="/LogoNeu.png"  width={500} height={300} alt="LogoNeu" className="object-contain w-[66vw] h-[24vh] md:mt-[0vh] md:w-[55vw] md:h-[36vh] lg:hidden "/>
 
       <div className="flex justify-center items-center flex-col relative z-10 ">
         <motion.h1
           variants={textVariant(1.1)}
-          className="mt-[37vh] mb-[3vh] headingE text-yellow-50 text-[9.66rem] md:mt-[6vh] sd:text-8xl md:text-[13.33rem] lg:-mt-[5vh] lg:mb-[2vh]  lg:text-[19rem] 2xl:text-[23rem]"
+          className="mt-[28vh] mb-[3vh] headingE text-yellow-50 text-[9.66rem] md:mt-[6vh] sd:text-8xl md:text-[13.33rem] lg:-mt-[5vh] lg:mb-[2vh]  lg:text-[19rem] 2xl:text-[23rem]"
         >
           die
         </motion.h1>
