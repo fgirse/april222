@@ -2,11 +2,10 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import React from 'react';
 import Tooltip from "../utils/SimpleTooltip";
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
-import { TypingText } from "../components";
+import { TypingText } from "../components/CustomTexts";
 
 const About = () => (
   <section id="section-about" className={`${styles.paddings} relative z-10`} name="hashid">
@@ -84,4 +83,5 @@ const About = () => (
       ></motion.img>
     </motion.div>
   </section>
-);export default About;
+);
+export default About;

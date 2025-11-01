@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -22,15 +18,18 @@
       {
         "name": "next"
       }
-    ]
+    ],
+
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "components/Modale/Modale02.jsx", "components/MenuDrinks/Subheading/SubHeading.jsx", "components/MenuDrinks/index.jsx", "data/images.jsx"  ],
-  "exclude": [
-    "node_modules"
-  ]
+    "**/*.tsx",
+    "components/Modale/Modale02.jsx",
+    "components/MenuDrinks/Subheading/SubHeading.jsx",
+    "components/MenuDrinks/index.jsx",
+    "data/images.jsx"
+  ],
+  "exclude": ["node_modules"]
 }

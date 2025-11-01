@@ -15,12 +15,12 @@ module.exports = {
       '4/3': [4, 3],    // or 4 / 3
       '21/9': [21, 9],  // or 21 / 9
     },
-    
+
 
     corePlugins: {
       aspectRatio: false,
     },
-    
+
 
     extend: {
       colors: {
@@ -38,5 +38,5 @@ module.exports = {
 
   plugins: [
     require('@headlessui/tailwindcss', 'tailwindcss-aspect-ratio' ,'tw-elements/dist/plugin.cjs',)]
-   
+
 };

@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { insights } from '../constants';
 import { staggerContainer } from '../utils/motion';
-import { InsightCard, TitleText, TypingText } from '../components';
-import Image from "next/dist/client/image";
+import { TypingText } from '../components/CustomTexts';
+import  InsightCard from '../components/InsightCard';
 import Modale05 from "../components/Modale/Modale05";
 import Modale06 from "../components/Modale/Modale06";
 import Modale07 from "../components/Modale/Modale07";
@@ -65,7 +65,7 @@ const Drinks = () => (
           </div>
 
       </section>
-      
+
     </motion.div>
   </section>
 );

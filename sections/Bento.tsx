@@ -19,10 +19,10 @@ export default function Example() {
           <Image src={HeroImage} alt="Hero Bar Vollperspektive" width={1920} height={1080} className="bo
            relative top-0 left-0 w-full h-full object-cover transform border-8 border-white rotate-[14deg] pointer-events-none opacity-50"/>
         </div>
-         <h1 className="mt-[5vh] text-6xl text-center headingA text-yellow-500  lg:text-7xl">Flens vom Fass</h1>
+         <h1 className="mt-[5vh] text-6xl text-center headingA text-yellow-500  lg:text-7xl">Bier vom Fass</h1>
 
         <h2 className="text-4xl text-center text-white lg:text-4xl mt-[3vh]">
-          Flensburger Pils - das kühle Blonde von der Waterkant.-Pils - das Kultbier natürlich direkt vom Kiez
+          Flensburger Pils - das kühle Blonde von der Waterkant. Astra-Pils - das Kultbier natürlich direkt vom Kiez
         </h2>
       </div>
 

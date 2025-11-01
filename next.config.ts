@@ -1,5 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from 'next'
+
+const nextConfig: NextConfig = {
   env: {
     NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: "Carlo2024",
     NEXT_PUBLIC_CLOUDINARY_PRESET_NAME: "school",
@@ -9,15 +10,11 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "res.cloudinary.com",
-        port: "", // Add port if required, leave empty for default
+        port: "443", // Add port if required, leave empty for default
         pathname: "/**", // Allows all paths under this hostname
       },
     ],
   },
-  experimental: {
-    appDir: true,
-    swcMinify: true,
-  },
-};
+}
 
-module.exports = nextConfig;
+export default nextConfig

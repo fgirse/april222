@@ -1,7 +1,9 @@
-import { Footer, InfoBar ,MenuBar } from '../components';
-import { About, Bento, Wohin, Event, Hero, Drinks, Team, Sportarena, World } from '../sections';
+import   InfoBar  from '../components/InfoBar.js';
+import Footer from "../components/Footer.jsx"
+import { About, Bento, Wohin, Event, Hero, Drinks, Team, Sportarena } from '../sections';
 import { NavTest } from '../utils'
-import ScrollToTop, { ScrollTop } from'../components/BackToTop/ScrollToTop.js';
+import ScrollToTop from'../components/BackToTop/ScrollToTop.js';
+
 const Page = () => (
   <>
 
