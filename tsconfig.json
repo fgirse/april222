@@ -13,13 +13,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-
+    "jsx": "preserve"
   },
   "include": [
     "next-env.d.ts",
@@ -30,6 +24,6 @@
     "components/MenuDrinks/Subheading/SubHeading.jsx",
     "components/MenuDrinks/index.jsx",
     "data/images.jsx"
-  ],
+, "next.config.mjs"  ],
   "exclude": ["node_modules"]
 }

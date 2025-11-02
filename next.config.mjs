@@ -1,7 +1,6 @@
-import type { NextConfig } from 'next'
-
-const nextConfig: NextConfig = {
-  env: {
+export default {
+  reactStrictMode: true,
+    env: {
     NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: "Carlo2024",
     NEXT_PUBLIC_CLOUDINARY_PRESET_NAME: "school",
   },
@@ -14,7 +13,6 @@ const nextConfig: NextConfig = {
         pathname: "/**", // Allows all paths under this hostname
       },
     ],
-  },
-}
+  }
 
-export default nextConfig
+};

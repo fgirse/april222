@@ -54,7 +54,7 @@ export default function Example() {
       <div className="grid-item-overlay-1760057891398"></div>
       <div className="grid-item-overlay-1760057918272">
           <div className="mt-[5vh] flex flex-col items-center space-x-4 justify-center">
-          <Image src="/cocktailglas.svg" alt="CocktailIcon" width={175} height={175} />
+          <Image src="/cocktailglas.png" alt="CocktailIcon" width={175} height={175} />
         </div>
         <h1 className="mt-[5vh] text-5xl text-center headingA text-yellow-500 lg:text-7xl">Cocktails & Longdrinks</h1>
         <h2 className="text-3xl text-center text-white lg:text-4xl mt-[3vh]">
