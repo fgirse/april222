@@ -1,6 +1,7 @@
 import HeroImage from "../public/Hero.png";
-
+import FussballIllustration from "../../public/Fussball.svg";
 import Image from "next/image";
+import LogoRettungsanker from "../../public/LogoNeu.png";
 
 export default function Example() {
   return (
@@ -27,7 +28,7 @@ export default function Example() {
       </div>
 
       <div className="grid-item-overlay-1760057666155">
-        <Image src="/logoNeu.png" alt="Logo Rettungsanker" width={500} height={200} className="mt-[5vh]" />
+        <Image src={LogoRettungsanker} alt="Logo Rettungsanker" width={500} height={200} className="mt-[5vh]" />
       </div>
 
       <div className="grid-item-overlay-1760057846834">
@@ -65,7 +66,7 @@ export default function Example() {
       <div className="grid-item-overlay-1760057942145"></div>
       <div className="grid-item-overlay-1760057948843">
         <div className="mt-[5vh] flex flex-col items-center space-x-4 justify-center">
-          <Image src="/fussball.svg" alt="Fussball-Illustration" width={175} height={175} />
+          <Image src={FussballIllustration} alt="Fussball-Illustration" width={175} height={175} />
         </div>
         <h1 className="mt-[5vh] text-6xl text-center headingA text-yellow-500 lg:text-7xl">Fussball</h1>
         <h1 className="text-center text-6xl headingA text-yellow-500 lg:text-7xl">TV Live</h1>
