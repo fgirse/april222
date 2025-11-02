@@ -1,3 +1,5 @@
+import { dir } from "console";
+
 export default {
   reactStrictMode: true,
     env: {
@@ -12,7 +14,9 @@ export default {
         port: "443", // Add port if required, leave empty for default
         pathname: "/**", // Allows all paths under this hostname
       },
-    ],
-  }
-
+    ]
+  },
+  experimental: {
+    appDir: true,
+  },
 };

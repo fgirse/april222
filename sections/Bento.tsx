@@ -27,7 +27,7 @@ export default function Example() {
       </div>
 
       <div className="grid-item-overlay-1760057666155">
-        <Image src="/logoNeu.png" alt="CocktailIcon" width={500} height={200} className="mt-[5vh]" />
+        <Image src="/logoNeu.png" alt="Logo Rettungsanker" width={500} height={200} className="mt-[5vh]" />
       </div>
 
       <div className="grid-item-overlay-1760057846834">
@@ -54,7 +54,7 @@ export default function Example() {
       <div className="grid-item-overlay-1760057891398"></div>
       <div className="grid-item-overlay-1760057918272">
           <div className="mt-[5vh] flex flex-col items-center space-x-4 justify-center">
-          <Image src="/cocktailglas.png" alt="CocktailIcon" width={175} height={175} />
+          <Image src="/cocktailglas.svg" alt="CocktailIcon" width={175} height={175} />
         </div>
         <h1 className="mt-[5vh] text-5xl text-center headingA text-yellow-500 lg:text-7xl">Cocktails & Longdrinks</h1>
         <h2 className="text-3xl text-center text-white lg:text-4xl mt-[3vh]">
