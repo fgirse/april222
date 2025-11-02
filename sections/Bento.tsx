@@ -1,7 +1,8 @@
 import HeroImage from "../public/Hero.png";
-import FussballIllustration from "../../public/Fussball.svg";
+import FussballIllustration from "../public/Fussball.svg";
 import Image from "next/image";
-import LogoRettungsanker from "../../public/LogoNeu.png";
+import LogoRettungsanker from "../public/LogoNeu.png";
+import AstraBier from "../public/astrabierglas.png";
 
 export default function Example() {
   return (
@@ -17,7 +18,7 @@ export default function Example() {
 
       <div className="grid-item-overlay-1760057632942">
         <div className="mt-[3vh] flex flex-col items-center space-x-4 justify-center h-[70vh] w-[]">
-          <Image src={HeroImage} alt="Hero Bar Vollperspektive" width={1920} height={1080} className="bo
+          <Image src={AstraBier} alt="Hero Bar Vollperspektive" width={1920} height={1080} className="bo
            relative top-0 left-0 w-full h-full object-cover transform border-8 border-white rotate-[14deg] pointer-events-none opacity-50"/>
         </div>
          <h1 className="mt-[5vh] text-6xl text-center headingA text-yellow-500  lg:text-7xl">Bier vom Fass</h1>
