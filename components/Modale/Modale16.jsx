@@ -1,17 +1,17 @@
 "use client";
 
-/* This is required only if the project file is located 
+/* This is required only if the project file is located
 inside the app. Otherwise you can use the external link of the pdf file*/
 import { Dialog, Transition } from "@headlessui/react";
 import Section from "../Leaf/Section";
 import Container from "../Leaf/Container";
 import { Fragment } from "react";
 import Tooltip from "../../utils/SimpleTooltip";
-import TabelleBL from "../TabelleBL";
 import React, { useState, useEffect } from "react";
 import { container } from "tailwindcss/defaultTheme";
 import ArenaIlustration from "../../public/arena.js";
 import Image from "next/image";
+import BundesligaTable from "../../components/bundesliga-table";
 
 export default function Modale16() {
   const [isOpen, setIsOpen] = useState(false);
@@ -121,7 +121,7 @@ export default function Modale16() {
                                 </p>
                                 <div className="container mx-auto overflow-hidden bg-slate-900">
                                   <div className="mx-auto mb-24 h-full w-[100vw] border border-yellow-500 text-xs md:w-[80vw]  xl:w-[80vw]">
-                                    <TabelleBL className=""></TabelleBL>
+                                    <BundesligaTable />
                                   </div>
                                 </div>
                               </article>
