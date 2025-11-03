@@ -136,7 +136,7 @@ export default function SCFreiburgMarquee() {
     <>
       {/* Detailed stats below marquee */}
       <div className="mt-6 flex flex-row gap-4 items-center overflow-x-auto">
-        <Image src={LogoSC} alt="SC Freiburg Logo" width={500} height={300} className="rounded-full"/>
+        <Image src={LogoSC} alt="SC Freiburg Logo" width={100} height={60} className="rounded-full"/>
         <section className="p-4 flex flex-row">
           <div className="flex flex-row items-center gap-x-3">
             <h3 className="text-white font-semibold text-sm lg:text-6xl  mb-2">SPIELTAG</h3>

@@ -135,8 +135,8 @@ export default function Footer() {
               Copyright © {new Date().getFullYear()}{' '}
               <span className="headingG font-black text-black">
                 {' '}
-                medicus design basel 🇨🇭
-              </span>{' '}
+                medicus design
+              </span>{' '} Basel 🇨🇭
               &{' '}
               <a
                 href="https://www.rettungsanker-freiburg.de"
