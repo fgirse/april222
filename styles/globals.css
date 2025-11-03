@@ -435,4 +435,10 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+
+  .Albers {
+	mask-image: url(../public/maskeAlbers.png);
+	mask-size: contain;
+	mask-repeat: no-repeat;
+}
 }

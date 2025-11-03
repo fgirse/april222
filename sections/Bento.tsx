@@ -93,7 +93,7 @@ export default function Example() {
       </div>
       <div className="grid-item-overlay-1760058017913">
              <div className="mt-[5vh] flex flex-col items-center space-x-4 justify-center">
-          <Image src={Albers} alt="HansAlbers" width={275} height={275} />
+          <Image src={Albers} alt="HansAlbers" width={275} height={275} className="Albers" />
         </div>
         <h1 className="mt-[5vh] text-6xl text-center headingA text-yellow-500 lg:text-7xl">Hans Albers</h1>
         <h2 className="text-2xl px-3 text-center text-white lg:text-4xl mt-[3vh]">
