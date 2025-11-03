@@ -135,7 +135,7 @@ export default function Footer() {
               Copyright © {new Date().getFullYear()}{' '}
               <span className="headingG font-black text-black">
                 {' '}
-                medicus design basel switzerland
+                medicus design basel 🇨🇭
               </span>{' '}
               &{' '}
               <a

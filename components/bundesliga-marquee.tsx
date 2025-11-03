@@ -1,9 +1,11 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import LogoSC from '../public/LogoSCFreiburg.png';
 import { Card } from "../components/ui/card";
-import Image from "next/image"  
-import next from "next"
+import Image from "next/image"
+
+
 interface TeamStanding {
   teamName: string
   teamId: number
@@ -134,7 +136,7 @@ export default function SCFreiburgMarquee() {
     <>
       {/* Detailed stats below marquee */}
       <div className="mt-6 flex flex-row gap-4 items-center overflow-x-auto">
-        <Image src="/LogoScFreiburg.png" alt="SC Freiburg Logo" width={100} height={80} className="rounded-full"/>
+        <Image src={LogoSC} alt="SC Freiburg Logo" width={500} height={300} className="rounded-full"/>
         <section className="p-4 flex flex-row">
           <div className="flex flex-row items-center gap-x-3">
             <h3 className="text-white font-semibold text-sm lg:text-6xl  mb-2">SPIELTAG</h3>
@@ -142,7 +144,7 @@ export default function SCFreiburgMarquee() {
             <p className="text-sm text-white lg:text-6xl ">von 34 Spieltagen</p>
           </div>
         </section>
-        
+
         <section className="p-4">
           <div className="space-y-1">
             <p className="text-2xl font-bold lg:text-6xl text-amber-500 ">{freiburgData.points} Punkte</p>
@@ -155,11 +157,11 @@ export default function SCFreiburgMarquee() {
         <section className=" bg-black p-4">
           <div className="flex items-center gap-x-3 space-y-1 text-center">
           <h3 className="font-semibold text-sm text-white lg:text-2xl mb-2">TORVERHÄLTNIS</h3>
-          
+
             <p className="text-2xl lg:text-6xl text-amber-500 font-bold">
               {freiburgData.goals}:{freiburgData.opponentGoals}
             </p>
-           
+
           </div>
         </section>
       </div>
