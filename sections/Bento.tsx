@@ -1,10 +1,10 @@
 import FussballIllustration from "../public/Fussball.svg";
 import Hero from "../public/Hero.png";
 import LogoRettungsanker from "../public/LogoNeu.png";
-import AstraBier from "../public/astrabierglas.png";
 import Cocktail from "../public/Cocktailglas.svg"
 import Image from "next/image";
-
+import Albers from "../public/albers.jpg";
+import AstraBier from "../public/astra-remove.png";
 export default function Example() {
   return (
     <div className="bento-grid">
@@ -93,7 +93,7 @@ export default function Example() {
       </div>
       <div className="grid-item-overlay-1760058017913">
              <div className="mt-[5vh] flex flex-col items-center space-x-4 justify-center">
-          <Image src="/Albers-white.png" alt="CocktailIcon" width={275} height={275} />
+          <Image src={Albers} alt="HansAlbers" width={275} height={275} />
         </div>
         <h1 className="mt-[5vh] text-6xl text-center headingA text-yellow-500 lg:text-7xl">Hans Albers</h1>
         <h2 className="text-2xl px-3 text-center text-white lg:text-4xl mt-[3vh]">
