@@ -182,6 +182,12 @@ input:-webkit-autofill:focus {
   height: 100vh;
 }
 
+.Albers {
+ background: linear-gradient(to right, #000000, #ffffff, #ffffff);
+}
+
+
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,

@@ -1,6 +1,6 @@
 import   InfoBar  from '../components/InfoBar.js';
 import Footer from "../components/Footer.jsx"
-import { About, Bento, Wohin, Event, Hero, Drinks, Team, Sportarena } from '../sections';
+import { About, Bento, Wohin, Event, Hero, Team, Sportarena } from '../sections';
 import { NavTest } from '../utils'
 import ScrollToTop from'../components/BackToTop/ScrollToTop.js';
 
@@ -18,7 +18,6 @@ const Page = () => (
       <Bento />
     </div>
     <div className="relative">
-      <Drinks />
       <ScrollToTop/>
       <div className="gradient-04 z-0"></div>
       <Event />

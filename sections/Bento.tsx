@@ -19,7 +19,7 @@ export default function Example() {
         <div className="mt-[3vh] flex flex-col items-center space-x-4 justify-center h-[70vh] w-[]">
           <Image src={Hero} alt="Hero Bar Vollperspektive" width={1920} height={1080} className="border border-white
            relative top-0 left-0 w-full h-full object-cover pointer-events-none opacity-50"/>
-           <h1 className="mt-[12vh] text-6xl text-center headingA text-yellow-500 lg:text-7xl">Angebot und Service im Rettungsanker</h1>
+           <h1 className="mt-[12vh] text-6xl text-center headingA text-red-700 lg:text-7xl">Angebot und Service</h1>
         </div>
         <div className="flex fex-col items-center">
 <Image src={AstraBier} alt="Hero Image" width={300} height={200} className=""/>
@@ -93,10 +93,10 @@ export default function Example() {
 
       </div>
       <div className="grid-item-overlay-1760058017913">
-             <div className="mt-[5vh] flex flex-col items-center space-x-4 justify-center">
-          <Image src={Albers} alt="HansAlbers" width={275} height={275} className="Albers" />
+             <div className="mt-[5vh] flex flex-col items-center space-x-4 justify-center rounded-xl">
+          <Image src={Albers} alt="Hans Albers" width={275} height={275} className="Albers" />
         </div>
-        <h1 className="mt-[5vh] text-6xl text-center headingA text-yellow-500 lg:text-7xl">Hans Albers</h1>
+        <h1 className="mt-[5vh] text-6xl text-center headingA text-yellow-500 lg:text-[10vw]">Hans Albers</h1>
         <h2 className="text-2xl px-3 text-center text-white lg:text-4xl mt-[3vh]">
           Hans Phillip August Albers (* 22.September 1891 in Hamburg , 24. Juli 1960 in Berg, Bayern) war ein deutscher Schauspieler und Sänger, der als &quot;blonder Hans&quot; Volkssidol wurde. Zu den bekanntesten Spielfilmen in denen er mitwirkte gehören &quot;der Mann, der Sherlock Holmes war&quot; (1937), &quot;Münchhausen&quot; (1943), &quot;die grosse Freiheit Nr.7&quot; (1943) sowie &quot;Auf fer Reeperbahn Nachts um halb eins&quot;
         </h2>
